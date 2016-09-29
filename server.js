@@ -8,7 +8,7 @@ var multer = require('multer');
 var upload = multer({ dest: 'uploads/' });
 
 //set view directory
-app.set("views", ".");
+app.set("views", "./views");
 app.set("view engine", "pug");
 
 app.get('/*', (req, res) => {
