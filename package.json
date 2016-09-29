@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/BenWS/filemetadata/issues"
   },
-  "homepage": "https://github.com/BenWS/filemetadata#readme"
+  "homepage": "https://github.com/BenWS/filemetadata#readme",
+  "dependencies": {
+    "multer": "^1.2.0"
+  }
 }

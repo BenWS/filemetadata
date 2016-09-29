@@ -20,7 +20,7 @@ app.post('/getFileSize', upload.single("file"),(req, res) => {
     res.json({"size in bytes": req.file.size});
 })
 
-app.listen(8080);
+app.listen(process.env.PORT);
 
 // var fileStats = fs.statSync("myFile.txt");
 // console.log(fileStats["size"]);
