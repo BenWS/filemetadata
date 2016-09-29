@@ -1,0 +1,20 @@
+{
+  "name": "filemetadata",
+  "version": "1.0.0",
+  "description": "Choose file and get the size of the file in bytes",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BenWS/filemetadata.git"
+  },
+  "author": "Benjamin Shippey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BenWS/filemetadata/issues"
+  },
+  "homepage": "https://github.com/BenWS/filemetadata#readme"
+}

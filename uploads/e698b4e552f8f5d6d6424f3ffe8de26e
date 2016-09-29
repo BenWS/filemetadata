@@ -1,0 +1,3 @@
+doctype html
+html
+	input(type= "file" value="submit" name = "file")
