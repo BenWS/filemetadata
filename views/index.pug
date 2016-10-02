@@ -7,7 +7,5 @@ html
     h2(style = "color:#61B329") File Metadata Service
     p Submit file and get size of file in bytes.
     form(action='/getFileSize' enctype='multipart/form-data' method='post')
-        p Select file
-        br
         input(type="file" value="Upload" name ="file")
         input(type="submit" value="Submit")
