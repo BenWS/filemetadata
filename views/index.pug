@@ -1,5 +1,13 @@
-form(action='/getFileSize' enctype='multipart/form-data' method='post')
-    p Please select file (if you like):
-    br
-    input(type="file" value="upload" name ="file")
-    input(type="submit" value="send")
+doctype 5
+html
+  head
+    style code {background-color:#eeeeee;} p {font-size:15px}
+  body
+    div(style = "font-family:arial")
+    h2(style = "color:#61B329") File Metadata Service
+    p Submit file and get size of file in bytes.
+    form(action='/getFileSize' enctype='multipart/form-data' method='post')
+        p Select file
+        br
+        input(type="file" value="Upload" name ="file")
+        input(type="submit" value="Submit")
