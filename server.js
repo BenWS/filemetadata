@@ -11,9 +11,14 @@ var upload = multer({ dest: 'uploads/' });
 app.set("views", "./views");
 app.set("view engine", "pug");
 
-app.get('/*', (req, res) => {
+app.get('/index', (req, res) => {
     res.render("index")
 })
+
+app.get("/*", function(req,res) {
+  res.redirect("/index");
+  // res.end("This is the index page");
+});
 
 app.post('/getFileSize', upload.single("file"),(req, res) => {
     console.log(req.file.size);
